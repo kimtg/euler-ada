@@ -6,3 +6,6 @@
 
 # binary
 *.exe
+
+# Emacs crap
+*~
