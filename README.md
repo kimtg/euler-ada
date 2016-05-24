@@ -1,2 +1,2 @@
 # euler-ada
-Project Euler solutions in Ada
+[Project Euler](https://projecteuler.net/) solutions in Ada
