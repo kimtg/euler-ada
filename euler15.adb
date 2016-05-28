@@ -63,7 +63,7 @@ begin
       P := P * I;
       Put_Line("*" & Integer'Image(I) & " => " & To_String(P));
    end loop;
-   for I in 1 .. 20 loop
+   for I in reverse 1 .. 20 loop
       P := P / I;
       Put_Line("/" & Integer'Image(I) & " => " & To_String(P));
    end loop;
