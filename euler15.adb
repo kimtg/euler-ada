@@ -48,7 +48,7 @@ procedure Euler15 is
 	 S := Digit(A, Length(A) - D + 1) + Carry * 10;
 	 Carry := S mod B;
 	 S := S / B;
-	 if Length(R) > 0 or S /= 0 then
+	 if Length(R) > 0 or else S /= 0 then
 	    R := R & To_String(S);
 	 end if;
       end loop;
